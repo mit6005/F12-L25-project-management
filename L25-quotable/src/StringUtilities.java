@@ -18,8 +18,7 @@ public class StringUtilities {
     
     
     public static void main(String[] args) {
-        System.out.println(contains(
-                "Life is wonderful! I am so very very happy all the time",
-                "very happy"));
+        System.out.println(contains("Life is wonderful! I am so very very happy all the time",
+                                    "very happy"));
     }
 }
