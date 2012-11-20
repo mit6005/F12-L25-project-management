@@ -1,7 +1,7 @@
-
 public class MovieQuotes {
     private static final String[] quotes = new String[] {
         "Wherever you go... there you are.\n--Buckaroo Banzai",
+        "Well-chosen briefs.  Chicks dig grey.\n--Spike, Notting Hill",
     };
     
     /**
