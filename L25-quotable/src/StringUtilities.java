@@ -8,8 +8,8 @@ public class StringUtilities {
     public static boolean contains(String s, String t){
         search:
             for (int i = 0; i < s.length(); ++i) {
-                for (int j = 0; j < t.length(); ++j, ++i) {
-                    if (s.charAt(i) != t.charAt(j)) continue search;
+                for (int j = 0; j < t.length(); ++j) {
+                    if (s.charAt(i+j) != t.charAt(j)) continue search;
                 }
                 return true;
             }
@@ -20,5 +20,7 @@ public class StringUtilities {
     public static void main(String[] args) {
         System.out.println(contains("Life is wonderful! I am so very very happy all the time",
                                     "very happy"));
+        System.out.println(contains("vvh",
+                "vh"));
     }
 }
